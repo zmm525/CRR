@@ -1,27 +1,13 @@
 # Constrained Residual Race: An Efficient Hybrid Controller for Autonomous Racing
-Deep reinforcement learning (DRL) has great potential for solving 
-the autonomous racing problem, 
-and this approach does not require an accurate dynamics model compared
-to classical methods. However, the random sampling of actions
-by a single DRL method results in large sample consumption
-and inefficient exploration. In this paper, we propose an efficient
-racing method based on constrained residual reinforcement
-learning called Constrained Residual Race (CRR). First, we use
-a geometry-based reactive obstacle avoidance algorithm 
-Follow-The-Gap Method (FTG) as a prior controller to generate safe
-guided actions. In addition, we generate complementary actions
-using the DRL and finally fuse the two action outputs into the
-final control action through a constraint equation. The prior
-controller FTG algorithm produces safe driving actions and
-improves the exploration efficiency of the agent. The constraint
-treatment of the DRL policy output ensures that the DRL
-policy does not overwrite the prior policy at the beginning of
-the exploration. In addition, the DRL policy can improve the
-performance of the prior controller during training and thus
-reduce the lap time of the car. We validate our method on the
-F1TENTH simulator, and the evaluation results show that our
-method achieves the lowest lap times in most cases and exhibits
-outstanding generalization capability.
+Deep reinforcement learning (DRL) has shown promise in solving the autonomous racing problem without requiring an accurate dynamics model, 
+but random sampling of actions can lead to inefficient exploration. 
+This paper proposes an efficient racing method, Constrained Residual Race (CRR), which combines a geometry-based reactive obstacle avoidance algorithm, 
+Follow-The-Gap Method (FTG), with DRL. CRR generates safe guided actions with FTG and complementary actions with DRL, 
+which are then fused into a final control action through a constraint equation. 
+Using FTG as a prior controller enhances exploration efficiency and produces safe driving actions. 
+Constraining the DRL policy output ensures that it does not overwrite the prior policy during early stages of exploration. 
+Additionally, the DRL policy improves over the performance of the prior controller during training, reducing the lap time of the car. 
+Validatxion on the F1TENTH simulator shows that CRR achieves lower lap times in most cases and exhibits excellent generalization capability.
 
 ## Demos
 The results of our method on the four tracks, in order Austria, Berlin, Columbia and Treitlstrasse.
