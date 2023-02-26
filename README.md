@@ -7,7 +7,7 @@ which are then fused into a final control action through a constraint equation.
 Using FTG as a prior controller enhances exploration efficiency and produces safe driving actions. 
 Constraining the DRL policy output ensures that it does not overwrite the prior policy during early stages of exploration. 
 Additionally, the DRL policy improves over the performance of the prior controller during training, reducing the lap time of the car. 
-Validatxion on the F1TENTH simulator shows that CRR achieves lower lap times in most cases and exhibits excellent generalization capability.
+Validation on the F1TENTH simulator shows that CRR achieves lower lap times in most cases and exhibits excellent generalization capability.
 
 ## Demos
 The results of our method on the four tracks, in order Austria, Berlin, Columbia and Treitlstrasse.
