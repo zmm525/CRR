@@ -19,7 +19,7 @@ The results of our method on the four tracks, in order Austria, Berlin, Columbia
 
 
 ## Installation
-Our code has been tested on `Ubuntu 20.04` with `Python 3.6` and `Tensorflow 2.3.0`. 
+Our code has been tested on `Ubuntu 20.04` with `Python 3.7` and `Tensorflow 2.3.0`. 
 
 This F1TENTH simulator used the repository [racecar_gym](https://github.com/axelbr/racecar_gym).
 
