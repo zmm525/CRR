@@ -23,7 +23,7 @@ Our code has been tested on `Ubuntu 20.04` with `Python 3.7` and `Tensorflow 2.3
 
 This F1TENTH simulator used the repository [racecar_gym](https://github.com/axelbr/racecar_gym).
 
-DRL algorithm is based on [OpenAISpinningUp](https://github.com/openai/spinningup)
+DRL algorithm is based on [OpenAISpinningUp](https://github.com/openai/spinningup).
 ```
 git clone https://github.com/openai/spinningup.git 
 cd spinningup 
